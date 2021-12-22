@@ -5,7 +5,7 @@ div
   input(v-model="row['item1']")
 
   div(:title='row["item2"]') {{ row["item2"] }}
-  //- input(v-model='row["item2"]')
+  input(v-model='row["item2"]')
 </template>
 
 <script>
